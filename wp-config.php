@@ -18,6 +18,10 @@
  * @package WordPress
  */
 
+define('TWILIO_SID', 'AC8d6dd3e9af9816f112846e0b767e77e9');
+define('TWILIO_TOKEN', '1ccdc6ef89e57e9bb3ce61a380dbb7f6');
+define('TWILIO_NUM', '+14344781683');
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'devtest' );
@@ -66,9 +70,6 @@ define( 'NONCE_SALT',       'rsAQuH*(}-+,KOF((0f_A@k8pk/pcnI)hVOqu?|;S67Ffu<W_H`
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'wp1_';
-$sid = 'AC8d6dd3e9af9816f112846e0b767e77e9';
-$token = 'fb6a786f909d8bd654bdb84e29eb7c10';
-$twilioNum= '+14344781683';
 
 /**
  * For developers: WordPress debugging mode.

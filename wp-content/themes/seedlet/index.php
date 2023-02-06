@@ -29,11 +29,11 @@ if(isset($_POST['submit']))
 
 //Twilio API Call - Outgoing
 
-	$client = new Client($sid, $token);
+	$client = new Client(TWILIO_SID, TWILIO_TOKEN);
 	$client->messages->create(
     $phone,
     [
-        'from' => $twilioNum,
+        'from' => TWILIO_NUM,
         'body' => $message,
     ]
 );
