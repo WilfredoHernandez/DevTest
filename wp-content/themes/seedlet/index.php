@@ -98,11 +98,11 @@ get_header();
 		<form action='' id='mainForm' method="post">
 			<div class="toGroup">
 				<label> Send to:</laber>
-				<input type="tel" id="phone" name="phone" pattern="+[0-9]{3}[0-9]{4}[0-9]{4}" required>
+				<input type="tel" id="phone" name="phone" pattern="+[0-9]{3}[0-9]{4}[0-9]{4}" required placeholder="Phone Number +50370479484">
 			</div>
 			<div class="messageGroup">
-				<label> Message:</laber>
-				<textarea type="text" id="message" name="message" required></textarea>
+				<label > Message:</label>
+				<textarea type="text" id="message" name="message" placeholder="Write your message here..." required></textarea>
 			</div>
 			<div class="buttonGroup">
 			<input type='submit' name ='submit' value='submit'>

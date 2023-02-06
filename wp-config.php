@@ -18,6 +18,8 @@
  * @package WordPress
  */
 
+
+ // Twilio Api Credentials
 define('TWILIO_SID', 'AC8d6dd3e9af9816f112846e0b767e77e9');
 define('TWILIO_TOKEN', '1ccdc6ef89e57e9bb3ce61a380dbb7f6');
 define('TWILIO_NUM', '+14344781683');
